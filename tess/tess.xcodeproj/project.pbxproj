@@ -15,6 +15,7 @@
 		A04770D01ED2B79600C7CAF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A04770CE1ED2B79600C7CAF6 /* LaunchScreen.storyboard */; };
 		A04770DB1ED2B79600C7CAF6 /* tessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A04770DA1ED2B79600C7CAF6 /* tessTests.m */; };
 		A04770E61ED2B79600C7CAF6 /* tessUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A04770E51ED2B79600C7CAF6 /* tessUITests.m */; };
+		A04771331ED2C12D00C7CAF6 /* HomePageModule.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A04771321ED2C12D00C7CAF6 /* HomePageModule.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		A04770E11ED2B79600C7CAF6 /* tessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A04770E51ED2B79600C7CAF6 /* tessUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tessUITests.m; sourceTree = "<group>"; };
 		A04770E71ED2B79600C7CAF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A04771321ED2C12D00C7CAF6 /* HomePageModule.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HomePageModule.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		A04770BF1ED2B79600C7CAF6 /* tess */ = {
 			isa = PBXGroup;
 			children = (
+				A04771321ED2C12D00C7CAF6 /* HomePageModule.podspec */,
 				A04770C31ED2B79600C7CAF6 /* AppDelegate.h */,
 				A04770C41ED2B79600C7CAF6 /* AppDelegate.m */,
 				A04770C61ED2B79600C7CAF6 /* ViewController.h */,
@@ -251,6 +254,7 @@
 			files = (
 				A04770D01ED2B79600C7CAF6 /* LaunchScreen.storyboard in Resources */,
 				A04770CD1ED2B79600C7CAF6 /* Assets.xcassets in Resources */,
+				A04771331ED2C12D00C7CAF6 /* HomePageModule.podspec in Resources */,
 				A04770CB1ED2B79600C7CAF6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,6 +522,7 @@
 				A04770EC1ED2B79600C7CAF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A04770ED1ED2B79600C7CAF6 /* Build configuration list for PBXNativeTarget "tessTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +531,7 @@
 				A04770EF1ED2B79600C7CAF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A04770F01ED2B79600C7CAF6 /* Build configuration list for PBXNativeTarget "tessUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +540,7 @@
 				A04770F21ED2B79600C7CAF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
